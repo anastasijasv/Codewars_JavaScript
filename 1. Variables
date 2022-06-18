@@ -1,0 +1,72 @@
+ 
+ --- Task 1 ---
+ Very simple, given an integer or a floating-point number, find its opposite.
+ 
+ function opposite(number) {
+  let result = number * -1;
+  return result;
+}
+
+funstion opposite(number) {
+  return -number;
+}
+
+--- Task 2 ---
+This code should store "codewa.rs" as a variable called name but it's not working. Can you figure out why?
+
+var a = "code";
+var b = "wa.rs";
+var name = a + b;
+console.log(name);
+
+--- Task 3 ---
+Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
+
+function greet(name){
+  return `Hello, ${name} how are you doing today?`;
+}
+
+--- Task 4 ---
+Complete the function body for this hello() function so that it takes one argument (person, a string) and returns a string saying hello to that person. The result should be formatted so that when you call the function like this:
+hello "Grae"
+you return a string that looks like this:
+"Hello, Grae"
+
+function hello(name) {
+  // Insert your code below.
+  return ('Hello, ' + name);
+}
+
+--- Task 5 ---
+We need a function that can transform a number into a string. What ways of achieving this do you know?
+
+function numberToString(num) {
+  return '' + num;
+}
+
+function numberToString(num) {
+  return num.toString();
+}
+
+--- Task 6 ---
+We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+const stringToNumber = function(str){
+  // put your code here
+  return +str;
+}
+
+var stringToNumber = function(str){
+  // put your code here
+  return Number(str);
+}
+
+--- Task 7 ---
+This code does not execute properly. Try to figure out why.
+
+function multiply(a, b){
+  return a * b;
+}
+
+
+
